@@ -1,0 +1,125 @@
+body{
+    margin:0px;
+    background-image: url(./images/airplane.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 750px;
+    
+  
+    
+}
+.navbar{
+    display: flex;
+   justify-content: end;
+    /* border: 1px solid black;
+    background-color: #303032; */
+    height: 50px;
+    margin-top:80px;
+    
+   
+    
+    
+}
+
+.navbar>ul{
+    list-style: none;
+    
+    
+}
+
+.navbar>ul>li>a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+   
+    font-size: 22px;
+    
+
+   
+}
+
+.navbar ul{
+    display: flex;
+    /* border: 1px solid black; */
+    /* text-align: center; */
+    /* margin-left: 400px; */
+ 
+    
+   
+    
+    
+}
+
+.navbar ul li{
+    /* border: 1px solid black; */
+    margin-left:80px;
+    /* padding: 10px; */
+    /* margin-top: 5px; */
+   
+}
+.heading{
+/* background-color: aqua; */
+margin-top:-400px;
+margin-left: 50px;
+width: 90%;
+}
+
+.heading h1{
+    font-size: 380px;
+    display: flex;
+
+}
+
+.heading h2{
+    font-size: 80px;
+    display: flex;
+    justify-content: end;
+    margin-top: -400px;
+
+}
+
+.heading3 {
+    display: flex;
+    /* background-color: aqua; */
+    margin-top: 300px;
+    
+    
+}
+
+.heading3 h3{
+    margin-left: 80px;
+    font-size: 30px;
+
+
+}
+.heading3 .btn{
+    border-radius: 55.5555555556rem;
+    font-size: 1.171875vw;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+
+}
+
+.heading3 div{
+    margin-left: 700px;
+    margin-top: -1px;
+}
+
+.two{
+    margin-top: -10px;
+    background-color: white;
+    height: 1000px;
+    border-top: 1px solid black;
+}
+
+.two h2{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 800px;
+    font-size: 80px;
+}
